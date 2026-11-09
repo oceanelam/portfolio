@@ -8,7 +8,7 @@
       try {
         const savedLang = localStorage.getItem('portfolio_lang');
         if (savedLang === 'fr' || savedLang === 'en') currentLang = savedLang;
-      } catch (e) {}
+      } catch (e) { }
 
       const I18N = {
         en: {
@@ -1118,7 +1118,7 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
 
       function applyLanguage(lang) {
         currentLang = lang;
-        try { localStorage.setItem('portfolio_lang', lang); } catch (e) {}
+        try { localStorage.setItem('portfolio_lang', lang); } catch (e) { }
         document.documentElement.lang = lang;
 
         const t = I18N[lang] || I18N.en;
