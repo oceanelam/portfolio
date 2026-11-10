@@ -143,7 +143,7 @@
             date: 'Master 2 — ESILV Paris',
             tags: ['Master 2 Creative Tech', 'Iterative Prototyping', 'Project-Based Learning', 'Video Editing', 'Sports & Discipline'],
             pdf: {
-              url: './my_cv/cv_lam_oceane_english.pdf',
+              url: './my_cv/cv_lam_oceane_fr.pdf',
               label: 'Download CV (PDF) ↓'
             },
             text: `I am currently an **engineering student** in my first year of a Master’s degree in **Creative Technology**, a multidisciplinary curriculum blending **software development**, **emerging technology**, and **creative design**.
@@ -158,7 +158,7 @@ Beyond academics, I cultivate a strong creative and physical discipline through 
             date: 'Master 2 — ESILV Paris',
             tags: ['Master 2 Creative Tech', 'Prototypage Itératif', 'Pédagogie par Projet', 'Montage Vidéo', 'Sport & Discipline'],
             pdf: {
-              url: './my_cv/cv_lam_oceane_english.pdf',
+              url: './my_cv/cv_lam_oceane_fr.pdf',
               label: 'Télécharger le CV (PDF) ↓'
             },
             text: `Je suis actuellement **étudiante ingénieure** en première année de Master en **Creative Technology**, un cursus pluridisciplinaire alliant **développement logiciel**, **technologies émergentes** et **design créatif**.
