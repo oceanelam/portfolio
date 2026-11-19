@@ -133,7 +133,7 @@
       /* STRATEGIC PROJECTS DATA (BILINGUAL EN / FR)                        */
       /* ------------------------------------------------------------------ */
       const PROJECTS = {
-        // 1. ROOM 01 — WHO AM I & METHODOLOGY
+        // 1. ROOM 01 : WHO AM I & METHODOLOGY
         about: {
           portrait: true,
           images: ['./assets/lam_oceane_photo.webp', './assets/lam_oceane_photo.jpeg'],
@@ -169,7 +169,7 @@ Au-delà de mes études, je cultive une discipline créative et physique rigoure
           }
         },
 
-        // 2. ROOM 02 — PROFESSIONAL EXPERIENCE (OFFICIENCE)
+        // 2. ROOM 02 : PROFESSIONAL EXPERIENCE (OFFICIENCE)
         officience: {
           carousel: true,
           topImages: [
@@ -216,7 +216,7 @@ Cette opportunité me permet d'évoluer dans un **environnement international** 
           }
         },
 
-        // 3. ROOM 03 — HARDWARE & MAKERS (FLAGSHIP PROJECT FIRST)
+        // 3. ROOM 03 : HARDWARE & MAKERS (FLAGSHIP PROJECT FIRST)
         dreamlogue: {
           heroVideo: true,
           video: './Dreamlogue/dreamlogue.mp4',
@@ -326,7 +326,7 @@ Le **PasteScraper** est né d'une frustration du quotidien : le **gaspillage con
           }
         },
 
-        // 4. ROOM 04 — DIGITAL WORLDS & CREATIVE ARTS
+        // 4. ROOM 04 : DIGITAL WORLDS & CREATIVE ARTS
         unity: {
           images: ['./assets/unity_project.jpg'],
           galleryImages: [
@@ -1239,6 +1239,13 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
         }
 
         // If drawer is currently open, refresh drawer texts and media
+                // Bulletproof runtime dash sanitizer
+        $('.kicker, .nav-title, .coords, .nav-dot, .sub, .mono').forEach(el => {
+          if (el.innerHTML.includes('—') || el.innerHTML.includes('–')) {
+            el.innerHTML = el.innerHTML.replace(/[—–]/g, ' ').replace(/\s+/g, ' ');
+          }
+        });
+
         if (drawerOpen && activeProjectKey) {
           renderDrawerContent(activeProjectKey);
           buildDrawerMedia(PROJECTS[activeProjectKey]);
@@ -1280,6 +1287,11 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
       /* ------------------------------------------------------------------ */
       function init() {
         applyLanguage(currentLang);
+      document.querySelectorAll('.kicker, .nav-title, .coords, .nav-dot, .sub, .mono').forEach(el => {
+        if (el.innerHTML.includes('—') || el.innerHTML.includes('–')) {
+          el.innerHTML = el.innerHTML.replace(/[—–]/g, ' ').replace(/\s+/g, ' ');
+        }
+      });
 
         const m = location.hash.match(/room(\d)/);
         const n = m ? parseInt(m[1], 10) : 1;
