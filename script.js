@@ -12,7 +12,7 @@
 
       const I18N = {
         en: {
-          navTitle: 'Selected Work —',
+          navTitle: 'Selected Work',
           navRoom1: '01 Studio',
           navRoom2: '02 Impact',
           navRoom3: '03 Makers',
@@ -23,34 +23,34 @@
           galleryCaption: 'Additional Visuals & Materials',
 
           // Room 1
-          r1LabelL: '(01) — The Creative Tech Studio',
-          r1LabelR: 'Selected Work — 05 Rooms',
-          r1Side: 'Technology — Interaction — Experimentation',
+          r1LabelL: '(01) The Creative Tech Studio',
+          r1LabelR: 'Selected Work 05 Rooms',
+          r1Side: 'Technology Interaction Experimentation',
           r1Formation: 'Master 2 Engineering Student <span class="it">in Creative Technology</span>',
           r1Lead: 'Showcasing creativity and innovation in engineering projects. Exploring the intersection of digital technology, interactive systems, and hands-on experimentation.',
           hotspotAboutAction: 'Click here ↗',
           hotspotAboutText: 'Who Am I & Methodology',
 
           // Room 2
-          r2Kicker: '02 — Professional Experience',
+          r2Kicker: '02 Professional Experience',
           r2Title: 'CORPORATE IMPACT<br><span class="it">&amp; EXPERIENCES</span>',
           r2Sub: 'Product Design, User Research &amp; Digital Marketing',
           hotspotOfficienceAction: 'Explore →',
-          hotspotOfficienceText: 'Internship — Officience',
+          hotspotOfficienceText: 'Internship : Officience',
 
           // Room 3
-          r3Kicker: '03 — Hardware &amp; Makers',
+          r3Kicker: '03 Hardware &amp; Makers',
           r3Title: 'DIGITAL FABRICATION<br><span class="it">&amp; PROTOTYPING</span>',
           r3Sub: 'Electronics, PCB Soldering &amp; Physical Computing',
           hotspotDreamlogueAction: 'Explore →',
-          hotspotDreamlogueText: 'Dreamlogue — Smart Mirror & AI',
+          hotspotDreamlogueText: 'Dreamlogue : Smart Mirror & AI',
           hotspotHtmmaAction: 'Explore →',
           hotspotHtmmaText: 'How to Make Almost Anything',
           hotspotPastescraperAction: 'Explore →',
           hotspotPastescraperText: 'Kickstarter : PasteScraper',
 
           // Room 4
-          r4Kicker: '04 — Digital Worlds &amp; Creative Arts',
+          r4Kicker: '04 Digital Worlds &amp; Creative Arts',
           r4Title: 'INTERACTIVE WORLDS<br><span class="it">&amp; CREATIVE ARTS</span>',
           r4Sub: 'Virtual Environments, Mobile Interfaces &amp; Brand Communication',
           hotspotUnityAction: 'Explore →',
@@ -61,7 +61,7 @@
           hotspotVisualartText: 'Visual Art & Design',
 
           // Room 5
-          r5Kicker: '05 — Connect &amp; Collaborate',
+          r5Kicker: '05 Connect &amp; Collaborate',
           r5Title: 'LET\'S CONNECT <br><span class="it">&amp; COLLABORATE</span>',
           r5Sub: 'Open for Master 2 graduation internship, creative engineering projects &amp; collaborations',
           contactEmailMono: 'Direct Email',
@@ -70,7 +70,7 @@
           contactCvText: 'Download Resume (PDF) ↓'
         },
         fr: {
-          navTitle: 'Projets Sélectionnés —',
+          navTitle: 'Projets Sélectionnés',
           navRoom1: '01 Studio',
           navRoom2: '02 Expérience',
           navRoom3: '03 Makers',
@@ -81,34 +81,34 @@
           galleryCaption: 'Visuels & Documents Complémentaires',
 
           // Room 1
-          r1LabelL: '(01) — Le Studio Creative Tech',
-          r1LabelR: 'Projets Sélectionnés — 05 Pièces',
-          r1Side: 'Technologie — Interaction — Expérimentation',
+          r1LabelL: '(01) Le Studio Creative Tech',
+          r1LabelR: 'Projets Sélectionnés 05 Pièces',
+          r1Side: 'Technologie Interaction Expérimentation',
           r1Formation: 'Étudiante Ingénieure en Master 2 <span class="it">en Creative Technology</span>',
           r1Lead: 'Mise en valeur de la créativité et de l\'innovation à travers des projets d\'ingénierie. À la croisée du numérique, des systèmes interactifs et de l\'expérimentation concrète.',
           hotspotAboutAction: 'Cliquez ici ↗',
           hotspotAboutText: 'Qui suis-je & Méthodologie',
 
           // Room 2
-          r2Kicker: '02 — Expérience Professionnelle',
+          r2Kicker: '02 Expérience Professionnelle',
           r2Title: 'IMPACT EN ENTREPRISE<br><span class="it">&amp; EXPÉRIENCES</span>',
           r2Sub: 'Design Produit, Recherche Utilisateur &amp; Marketing Digital',
           hotspotOfficienceAction: 'Explorer →',
-          hotspotOfficienceText: 'Stage — Officience',
+          hotspotOfficienceText: 'Stage : Officience',
 
           // Room 3
-          r3Kicker: '03 — Hardware &amp; Makers',
+          r3Kicker: '03 Hardware &amp; Makers',
           r3Title: 'FABRICATION NUMÉRIQUE<br><span class="it">&amp; PROTOTYPAGE</span>',
           r3Sub: 'Électronique, Soudure PCB &amp; Informatique Physique',
           hotspotDreamlogueAction: 'Explorer →',
-          hotspotDreamlogueText: 'Dreamlogue — Miroir Connecté & IA',
+          hotspotDreamlogueText: 'Dreamlogue : Miroir Connecté & IA',
           hotspotHtmmaAction: 'Explorer →',
           hotspotHtmmaText: 'How to Make Almost Anything',
           hotspotPastescraperAction: 'Explorer →',
           hotspotPastescraperText: 'Kickstarter : PasteScraper',
 
           // Room 4
-          r4Kicker: '04 — Mondes Numériques &amp; Arts Créatifs',
+          r4Kicker: '04 Mondes Numériques &amp; Arts Créatifs',
           r4Title: 'MONDES INTERACTIFS<br><span class="it">&amp; ARTS CRÉATIFS</span>',
           r4Sub: 'Environnements Virtuels, Interfaces Mobiles &amp; Communication de Marque',
           hotspotUnityAction: 'Explorer →',
@@ -119,7 +119,7 @@
           hotspotVisualartText: 'Art Visuel & Design',
 
           // Room 5
-          r5Kicker: '05 — Contact &amp; Collaboration',
+          r5Kicker: '05 Contact &amp; Collaboration',
           r5Title: 'CONTACT &amp; <br><span class="it">COLLABORATION</span>',
           r5Sub: 'Disponible pour un stage de fin d\'études Master 2, projets d\'ingénierie créative &amp; collaborations',
           contactEmailMono: 'Email direct',
@@ -139,8 +139,8 @@
           images: ['./assets/lam_oceane_photo.webp', './assets/lam_oceane_photo.jpeg'],
           en: {
             category: 'Profile & Methodology',
-            title: 'About Océane LAM — Engineering Student in Creative Technology',
-            date: 'Master 2 — ESILV Paris',
+            title: 'About Océane LAM : Engineering Student in Creative Technology',
+            date: 'Master 2 : ESILV Paris',
             tags: ['Master 2 Creative Tech', 'Iterative Prototyping', 'Project-Based Learning', 'Video Editing', 'Sports & Discipline'],
             pdf: {
               url: './my_cv/cv_lam_oceane_fr.pdf',
@@ -154,8 +154,8 @@ Beyond academics, I cultivate a strong creative and physical discipline through 
           },
           fr: {
             category: 'Profil & Méthodologie',
-            title: 'À propos d\'Océane LAM — Étudiante Ingénieure en Creative Technology',
-            date: 'Master 2 — ESILV Paris',
+            title: 'À propos d\'Océane LAM : Étudiante Ingénieure en Creative Technology',
+            date: 'Master 2 : ESILV Paris',
             tags: ['Master 2 Creative Tech', 'Prototypage Itératif', 'Pédagogie par Projet', 'Montage Vidéo', 'Sport & Discipline'],
             pdf: {
               url: './my_cv/cv_lam_oceane_fr.pdf',
@@ -181,10 +181,10 @@ Au-delà de mes études, je cultive une discipline créative et physique rigoure
             './assets/offinity_web_app3.png'
           ],
           en: {
-            category: 'Internship — Officience',
+            category: 'Internship : Officience',
             title: 'Internship at Officience: Product Design, UX/UI & Digital Marketing',
             date: 'International Professional Experience',
-            tags: ['Internship — Officience', 'UX/UI Design', 'User Research', 'Digital Marketing', 'Product Lifecycle'],
+            tags: ['Internship : Officience', 'UX/UI Design', 'User Research', 'Digital Marketing', 'Product Lifecycle'],
             text: `I actively contribute to the **conception**, **optimization**, and **promotion** of the company's application through key responsibilities in **interface design**, **user research**, and **digital marketing**.
 
 Key areas of work:
@@ -198,10 +198,10 @@ Key areas of work:
 This position allows me to thrive in an **international environment** and acquire a **comprehensive end-to-end perspective on the product lifecycle**, from discovery to go-to-market execution.`
           },
           fr: {
-            category: 'Stage — Officience',
+            category: 'Stage : Officience',
             title: 'Stage chez Officience : Product Design, UX/UI & Marketing Digital',
             date: 'Expérience Professionnelle Internationale',
-            tags: ['Stage — Officience', 'Design UX/UI', 'Recherche Utilisateur', 'Marketing Digital', 'Cycle de Vie Produit'],
+            tags: ['Stage : Officience', 'Design UX/UI', 'Recherche Utilisateur', 'Marketing Digital', 'Cycle de Vie Produit'],
             text: `Je contribue activement à la **conception**, l'**optimisation** et la **promotion** de l'application de l'entreprise à travers des responsabilités clés en **design d'interface**, **recherche utilisateur** et **marketing digital**.
 
 Axes majeurs de mon travail :
@@ -229,9 +229,9 @@ Cette opportunité me permet d'évoluer dans un **environnement international** 
             './Dreamlogue/WhatsApp Image 2026-10-27 at 20.01.53.jpeg'
           ],
           en: {
-            category: 'Master 2 Final Year Project (PFE) — Connected Hardware & Generative AI',
-            title: 'Dreamlogue — Interactive Smart Mirror & Connected AI Dream Journal',
-            date: 'Master 2 Final Year Project (PFE) — 2026',
+            category: 'Master 2 Final Year Project (PFE) : Connected Hardware & Generative AI',
+            title: 'Dreamlogue : Interactive Smart Mirror & Connected AI Dream Journal',
+            date: 'Master 2 Final Year Project (PFE) 2026',
             tags: ['Final Year Project (PFE)', 'Interactive Smart Mirror', 'Generative AI', 'IoT & Connected Journal', 'Product Design'],
             text: `**Dreamlogue** is an innovative, immersive concept that redefines how we explore and record our dream lives. Sitting at the crossroads of **traditional journaling** and **cutting-edge technology**, the project merges a **connected journal** with an **interactive smart mirror** to literally bring your dreams to life.
 
@@ -242,9 +242,9 @@ Once generated, the visual is seamlessly projected onto the device's **interacti
 The project creates a unique bridge between the **unconscious mind** and the real world through **AI-driven visual art**, while facilitating deep **self-awareness and introspection**. Blending smart IoT connectivity with elegant lifestyle design, **Dreamlogue** delivers a **furniture-grade tech object** that fits naturally into any bedroom space.`
           },
           fr: {
-            category: 'Projet de Fin d\'Études (PFE) Master 2 — Hardware Connecté & IA Générative',
-            title: 'Dreamlogue — Miroir Interactif & Journal de Rêves Connecté par IA',
-            date: 'Projet de Fin d\'Études (PFE) Master 2 — 2026',
+            category: 'Projet de Fin d\'Études (PFE) Master 2 : Hardware Connecté & IA Générative',
+            title: 'Dreamlogue : Miroir Interactif & Journal de Rêves Connecté par IA',
+            date: 'Projet de Fin d\'Études (PFE) Master 2 2026',
             tags: ['Projet de Fin d\'Études (PFE)', 'Miroir Connecté Interactif', 'IA Générative', 'IoT & Journal Connecté', 'Design Produit'],
             text: `**Dreamlogue** est un concept immersif et innovant qui redéfinit notre manière d'explorer et d'enregistrer notre vie onirique. À la croisée du **journal intime traditionnel** et des **technologies de pointe**, le projet associe un **journal connecté** à un **miroir interactif intelligent** pour donner littéralement vie à vos rêves.
 
@@ -365,7 +365,7 @@ Inspiré des paysages alpins asiatiques, des **cerisiers Sakura en fleurs** et d
           ],
           en: {
             category: 'Mobile UX/UI & Health Innovation',
-            title: 'Flowper — Student Productivity App',
+            title: 'Flowper : Student Productivity App',
             date: 'May 2025',
             tags: ['UI/UX Design', 'Figma Prototyping', 'Health Innovation', 'Grand Challenge Ingénieurs'],
             text: `Designed for the national engineering competition **Le Grand Challenge des Écoles d’Ingénieurs** (featured in **L'Usine Nouvelle**) under the theme **Health & Wellness Innovation**.
@@ -374,7 +374,7 @@ We engineered **Flowper**, a **mobile application crafted by students for studen
           },
           fr: {
             category: 'UX/UI Mobile & Innovation Santé',
-            title: 'Flowper — Application de Productivité Étudiante',
+            title: 'Flowper : Application de Productivité Étudiante',
             date: 'Mai 2025',
             tags: ['Design UI/UX', 'Prototypage Figma', 'Innovation Santé', 'Grand Challenge Ingénieurs'],
             text: `Conçu pour le concours national **Le Grand Challenge des Écoles d’Ingénieurs** (relayé par **L'Usine Nouvelle**) sur la thématique **Innovation Santé & Bien-être**.
@@ -420,25 +420,25 @@ Nous avons développé **Flowper**, une **application mobile imaginée par des �
             {
               id: 'trip-asia',
               en: {
-                title: '02 / Editorial Series — "Trip Asia with Sisters"',
+                title: '02 / Editorial Series "Trip Asia with Sisters"',
                 desc: 'Typography-driven poster collection capturing travel memories, chromatic warmth, and minimalist Swiss-inspired layouts.'
               },
               fr: {
-                title: '02 / Série Éditoriale — « Trip Asia with Sisters »',
+                title: '02 / Série Éditoriale « Trip Asia with Sisters »',
                 desc: 'Collection d\'affiches typographiques capturant souvenirs de voyage, chaleur chromatique et composition d\'inspiration suisse.'
               },
               items: [
                 {
                   src: './visual_art/trip asia with sisters.png',
                   isTall: true,
-                  en: { tag: 'Edition 01', title: 'Volume I — Editorial Cover Poster' },
-                  fr: { tag: 'Édition 01', title: 'Volume I — Affiche Éditoriale Couverture' }
+                  en: { tag: 'Edition 01', title: 'Volume I : Editorial Cover Poster' },
+                  fr: { tag: 'Édition 01', title: 'Volume I : Affiche Éditoriale Couverture' }
                 },
                 {
                   src: './visual_art/trip asia with sisters (1).png',
                   isTall: true,
-                  en: { tag: 'Edition 02', title: 'Volume II — Minimalist Typographic Study' },
-                  fr: { tag: 'Édition 02', title: 'Volume II — Étude Typographique Minimaliste' }
+                  en: { tag: 'Edition 02', title: 'Volume II : Minimalist Typographic Study' },
+                  fr: { tag: 'Édition 02', title: 'Volume II : Étude Typographique Minimaliste' }
                 }
               ]
             },
@@ -456,8 +456,8 @@ Nous avons développé **Flowper**, une **application mobile imaginée par des �
                 {
                   src: './visual_art/visualart.jpeg',
                   isTall: true,
-                  en: { tag: 'Brand Identity', title: 'The Coffee Shop — Editorial Poster Concept' },
-                  fr: { tag: 'Identité de Marque', title: 'The Coffee Shop — Affiche Conceptuelle' }
+                  en: { tag: 'Brand Identity', title: 'The Coffee Shop : Editorial Poster Concept' },
+                  fr: { tag: 'Identité de Marque', title: 'The Coffee Shop : Affiche Conceptuelle' }
                 },
                 {
                   src: './visual_art/visualart3.jpg',
@@ -773,7 +773,7 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
           const slide = document.createElement('div');
           slide.className = 'carousel-slide';
           const img = new Image();
-          img.alt = `${title} — View ${idx + 1}`;
+          img.alt = `${title} : View ${idx + 1}`;
           img.loading = idx === 0 ? 'eager' : 'lazy';
           img.addEventListener('error', () => {
             if (src.startsWith('./assets/')) {
@@ -788,7 +788,7 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
           });
           img.src = encodeURI(src);
           img.title = 'Click to view fullscreen';
-          img.addEventListener('click', () => openLightbox(img.src, `${title} — View ${idx + 1}`));
+          img.addEventListener('click', () => openLightbox(img.src, `${title} : View ${idx + 1}`));
           slide.appendChild(img);
           track.appendChild(slide);
         });
