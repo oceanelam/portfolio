@@ -1539,6 +1539,19 @@
 
     /* Responsive Phone & Mobile Queries */
     @media (max-width: 768px) {
+      /* Strictly lock viewport to eliminate horizontal scrolling / blank side strips */
+      html, body {
+        overflow-x: hidden !important;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+      }
+
+      .world, .room, .stage {
+        overflow: hidden !important;
+        max-width: 100vw;
+      }
+
       .ui-br .scroll-hint {
         display: none;
       }
@@ -1548,27 +1561,27 @@
       }
 
       .copy-left {
-        top: 13%;
-        left: clamp(1rem, 4vw, 2rem);
-        max-width: calc(100vw - 2rem);
+        top: 10%;
+        left: clamp(0.9rem, 4vw, 1.6rem);
+        max-width: calc(100vw - 1.8rem);
       }
 
       .big {
-        font-size: clamp(1.95rem, 7.2vw, 3.2rem);
+        font-size: clamp(1.65rem, 6.2vw, 2.35rem);
         line-height: 1.02;
       }
 
       .sub {
-        margin-top: 0.9rem;
-        font-size: clamp(0.85rem, 3.4vw, 1rem);
-        line-height: 1.5;
-        max-width: 92vw;
+        margin-top: 0.6rem;
+        font-size: clamp(0.76rem, 2.9vw, 0.9rem);
+        line-height: 1.45;
+        max-width: calc(100vw - 2rem);
       }
 
       .kicker {
-        font-size: 0.65rem;
-        margin-bottom: 0.7rem;
-        letter-spacing: 0.16em;
+        font-size: 0.62rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.14em;
       }
 
       .r1 .r1-side,
@@ -1577,9 +1590,9 @@
       }
 
       .r1 .r1-block {
-        left: clamp(1rem, 4vw, 2rem);
-        right: clamp(1rem, 4vw, 2rem);
-        max-width: calc(100vw - 2rem);
+        left: clamp(0.9rem, 4vw, 1.6rem);
+        right: clamp(0.9rem, 4vw, 1.6rem);
+        max-width: calc(100vw - 1.8rem);
         bottom: 4.2rem;
       }
 
@@ -1615,12 +1628,12 @@
       }
 
       .topnav {
-        gap: 0.6rem;
+        gap: 0.55rem;
       }
 
       .nav-dot {
-        font-size: 0.58rem;
-        letter-spacing: 0.08em;
+        font-size: 0.56rem;
+        letter-spacing: 0.06em;
       }
 
       .copy-center {
@@ -1628,7 +1641,7 @@
       }
 
       .copy-center .big {
-        font-size: clamp(1.8rem, 7.5vw, 2.6rem);
+        font-size: clamp(1.75rem, 7.2vw, 2.45rem);
         line-height: 1.05;
       }
 
@@ -1660,6 +1673,7 @@
         font-size: 0.56rem;
       }
 
+      /* Refined Mobile Hotspots & Flank-Left Badges */
       .hotspot {
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
@@ -1671,16 +1685,30 @@
       }
 
       .hotspot-badge {
-        padding: 0.26rem 0.58rem;
+        padding: 0.22rem 0.55rem;
+        gap: 0.32rem;
+        max-width: min(48vw, 185px);
+        box-sizing: border-box;
       }
 
       .hotspot-badge .badge-text {
-        font-size: 0.54rem;
-        letter-spacing: 0.08em;
+        font-size: 0.52rem;
+        letter-spacing: 0.05em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
       }
 
       .hotspot-badge .badge-action {
-        font-size: 0.54rem;
+        font-size: 0.52rem;
+        flex-shrink: 0;
+      }
+
+      /* Mobile Flank Left: Badges on the right half of the screen open to the left so they never overflow */
+      .hotspot.mobile-flank-left .hotspot-badge,
+      .hotspot.flank-left .hotspot-badge {
+        left: auto;
+        right: calc(100% + 7px);
       }
 
       .ui-tr {
@@ -1747,18 +1775,23 @@
 
     @media (max-width: 480px) {
       .copy-left {
-        top: 11%;
-        left: 1rem;
-        max-width: calc(100vw - 2rem);
+        top: 9%;
+        left: 0.85rem;
+        max-width: calc(100vw - 1.7rem);
       }
 
       .big {
-        font-size: clamp(1.55rem, 7.8vw, 2.15rem);
+        font-size: clamp(1.45rem, 6.8vw, 1.95rem);
       }
 
       .sub {
-        font-size: 0.78rem;
-        line-height: 1.45;
+        font-size: 0.74rem;
+        line-height: 1.4;
+      }
+
+      .kicker {
+        font-size: 0.58rem;
+        margin-bottom: 0.35rem;
       }
 
       .r1 .r1-name {
@@ -1787,8 +1820,32 @@
         padding: 0.68rem 0.95rem;
       }
 
+      .hotspot-trigger {
+        width: 28px;
+        height: 28px;
+      }
+
+      .hotspot .dot {
+        width: 8px;
+        height: 8px;
+      }
+
+      .hotspot-badge {
+        max-width: min(45vw, 155px);
+        padding: 0.18rem 0.44rem;
+        gap: 0.25rem;
+      }
+
+      .hotspot-badge .badge-text {
+        font-size: 0.48rem;
+      }
+
+      .hotspot-badge .badge-action {
+        font-size: 0.48rem;
+      }
+
       .topnav {
-        gap: 0.45rem;
+        gap: 0.4rem;
       }
 
       .nav-dot {
@@ -1871,7 +1928,7 @@
         <img class="layer fore" src="./assets/room1-fore.webp" alt="" aria-hidden="true">
 
         <!-- Hotspot 1: Who Am I & Methodology -->
-        <button class="hotspot" id="hotspot-about" data-project="about" style="top:55%;left:54%"
+        <button class="hotspot mobile-flank-left" id="hotspot-about" data-project="about" style="top:55%;left:54%"
           aria-label="Who Am I &amp; Methodology">
           <span class="hotspot-trigger"><span class="dot"></span></span>
           <span class="hotspot-badge"><span class="badge-action">Click here ↗</span><span class="badge-text">Who Am I
@@ -1908,7 +1965,7 @@
         <img class="layer fore" src="./assets/room2-fore.webp" alt="" aria-hidden="true">
 
         <!-- Hotspot: Internship at Officience -->
-        <button class="hotspot" id="hotspot-officience" data-project="officience" style="top:56%;left:52%"
+        <button class="hotspot mobile-flank-left" id="hotspot-officience" data-project="officience" style="top:56%;left:52%"
           aria-label="Internship at Officience: UX/UI &amp; Digital Marketing">
           <span class="hotspot-trigger"><span class="dot"></span></span>
           <span class="hotspot-badge"><span class="badge-action">Explore →</span><span class="badge-text">Internship :
@@ -1932,7 +1989,7 @@
         <img class="layer fore" src="./assets/room3-fore.webp" alt="" aria-hidden="true">
 
         <!-- Hotspot 3A: Dreamlogue : Interactive Smart Mirror & AI Dream Journal -->
-        <button class="hotspot" id="hotspot-dreamlogue" data-project="dreamlogue" style="top:44%;left:52%"
+        <button class="hotspot mobile-flank-left" id="hotspot-dreamlogue" data-project="dreamlogue" style="top:44%;left:52%"
           aria-label="Dreamlogue: Interactive Smart Mirror &amp; AI Dream Journal">
           <span class="hotspot-trigger"><span class="dot"></span></span>
           <span class="hotspot-badge"><span class="badge-action">Explore →</span><span class="badge-text">Dreamlogue :
@@ -1948,7 +2005,7 @@
         </button>
 
         <!-- Hotspot 3C: Kickstarter : The PasteScraper -->
-        <button class="hotspot" id="hotspot-pastescraper" data-project="pastescraper" style="top:56%;left:72%"
+        <button class="hotspot mobile-flank-left" id="hotspot-pastescraper" data-project="pastescraper" style="top:56%;left:72%"
           aria-label="Kickstarter : The PasteScraper">
           <span class="hotspot-trigger"><span class="dot"></span></span>
           <span class="hotspot-badge"><span class="badge-action">Explore →</span><span class="badge-text">Kickstarter :
@@ -1972,7 +2029,7 @@
         <img class="layer fore" src="./assets/room4-fore.webp" alt="" aria-hidden="true">
 
         <!-- Hotspot 4A: Unity 3D Virtual World -->
-        <button class="hotspot" id="hotspot-unity" data-project="unity" style="top:35%;left:50%"
+        <button class="hotspot mobile-flank-left" id="hotspot-unity" data-project="unity" style="top:35%;left:50%"
           aria-label="Unity 3D Virtual World">
           <span class="hotspot-trigger"><span class="dot"></span></span>
           <span class="hotspot-badge"><span class="badge-action">Explore →</span><span class="badge-text">Unity 3D
@@ -1980,7 +2037,7 @@
         </button>
 
         <!-- Hotspot 4B: Flowper App -->
-        <button class="hotspot" id="hotspot-flowper" data-project="flowper" style="top:47%;left:63%"
+        <button class="hotspot mobile-flank-left" id="hotspot-flowper" data-project="flowper" style="top:47%;left:63%"
           aria-label="Flowper : Student Productivity App">
           <span class="hotspot-trigger"><span class="dot"></span></span>
           <span class="hotspot-badge"><span class="badge-action">Explore →</span><span class="badge-text">Flowper
@@ -1988,7 +2045,7 @@
         </button>
 
         <!-- Hotspot 4C: Visual Art & Digital Communication -->
-        <button class="hotspot" id="hotspot-visualart" data-project="visualart" style="top:55%;left:77%"
+        <button class="hotspot mobile-flank-left" id="hotspot-visualart" data-project="visualart" style="top:55%;left:77%"
           aria-label="Visual Art &amp; Digital Communication">
           <span class="hotspot-trigger"><span class="dot"></span></span>
           <span class="hotspot-badge"><span class="badge-action">Explore →</span><span class="badge-text">Visual Art
