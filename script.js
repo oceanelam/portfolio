@@ -1239,12 +1239,7 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
         }
 
         // If drawer is currently open, refresh drawer texts and media
-                // Bulletproof runtime dash sanitizer
-        $('.kicker, .nav-title, .coords, .nav-dot, .sub, .mono').forEach(el => {
-          if (el.innerHTML.includes('—') || el.innerHTML.includes('–')) {
-            el.innerHTML = el.innerHTML.replace(/[—–]/g, ' ').replace(/\s+/g, ' ');
-          }
-        });
+
 
         if (drawerOpen && activeProjectKey) {
           renderDrawerContent(activeProjectKey);
@@ -1287,11 +1282,7 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
       /* ------------------------------------------------------------------ */
       function init() {
         applyLanguage(currentLang);
-      document.querySelectorAll('.kicker, .nav-title, .coords, .nav-dot, .sub, .mono').forEach(el => {
-        if (el.innerHTML.includes('—') || el.innerHTML.includes('–')) {
-          el.innerHTML = el.innerHTML.replace(/[—–]/g, ' ').replace(/\s+/g, ' ');
-        }
-      });
+
 
         const m = location.hash.match(/room(\d)/);
         const n = m ? parseInt(m[1], 10) : 1;
