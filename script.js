@@ -34,9 +34,11 @@
           // Room 2
           r2Kicker: '02 Professional Experience',
           r2Title: 'CORPORATE IMPACT<br><span class="it">&amp; EXPERIENCES</span>',
-          r2Sub: 'Product Design, User Research &amp; Digital Marketing',
+          r2Sub: 'Product Design, Web Platforms &amp; Digital Strategy',
           hotspotOfficienceAction: 'Explore →',
-          hotspotOfficienceText: 'Internship : Officience',
+          hotspotOfficienceText: 'Stage : Officience',
+          hotspotPhuongAction: 'Explore →',
+          hotspotPhuongText: 'Stage : Atelier PHUONG',
 
           // Room 3
           r3Kicker: '03 Hardware &amp; Makers',
@@ -92,9 +94,11 @@
           // Room 2
           r2Kicker: '02 Expérience Professionnelle',
           r2Title: 'IMPACT EN ENTREPRISE<br><span class="it">&amp; EXPÉRIENCES</span>',
-          r2Sub: 'Design Produit, Recherche Utilisateur &amp; Marketing Digital',
+          r2Sub: 'Design Produit, Plateformes Web &amp; Stratégie Digitale',
           hotspotOfficienceAction: 'Explorer →',
           hotspotOfficienceText: 'Stage : Officience',
+          hotspotPhuongAction: 'Explorer →',
+          hotspotPhuongText: 'Stage : Atelier PHUONG',
 
           // Room 3
           r3Kicker: '03 Hardware &amp; Makers',
@@ -143,7 +147,7 @@
             date: 'Master 2 : ESILV Paris',
             tags: ['Master 2 Creative Tech', 'Iterative Prototyping', 'Project-Based Learning', 'Video Editing', 'Sports & Discipline'],
             pdf: {
-              url: './my_cv/cv_lam_oceane_fr.pdf',
+              url: './my_cv/cv_lam_oceane_fr.pdf?v=20261120',
               label: 'Download CV (PDF) ↓'
             },
             text: `I am currently an **engineering student** in my first year of a Master’s degree in **Creative Technology**, a multidisciplinary curriculum blending **software development**, **emerging technology**, and **creative design**.
@@ -158,7 +162,7 @@ Beyond academics, I cultivate a strong creative and physical discipline through 
             date: 'Master 2 : ESILV Paris',
             tags: ['Master 2 Creative Tech', 'Prototypage Itératif', 'Pédagogie par Projet', 'Montage Vidéo', 'Sport & Discipline'],
             pdf: {
-              url: './my_cv/cv_lam_oceane_fr.pdf',
+              url: './my_cv/cv_lam_oceane_fr.pdf?v=20261120',
               label: 'Télécharger le CV (PDF) ↓'
             },
             text: `Je suis actuellement **étudiante ingénieure** en première année de Master en **Creative Technology**, un cursus pluridisciplinaire alliant **développement logiciel**, **technologies émergentes** et **design créatif**.
@@ -213,6 +217,55 @@ Axes majeurs de mon travail :
 - **Marketing Digital** : Conception et déploiement de supports de communication multimédias (identités visuelles, pitch decks, vidéos promotionnelles) pour soutenir le lancement et la visibilité de l'application.
 
 Cette opportunité me permet d'évoluer dans un **environnement international** et d'acquérir une **vision globale à 360° du cycle de vie produit**, de la phase d'idéation jusqu'au déploiement sur le marché.`
+          }
+        },
+
+        // Stage chez Atelier PHUONG Paris
+        phuong: {
+          carousel: true,
+          topImages: [
+            './stage_atelier_phuong/phuong_site_overview.png',
+            './stage_atelier_phuong/phuong_site_home.png',
+            './stage_atelier_phuong/phuong_site_content.png',
+            './stage_atelier_phuong/phuong_site_gallery.png'
+          ],
+          galleryImages: [
+            './stage_atelier_phuong/phuong_social_media.jpeg',
+            './stage_atelier_phuong/phuong_logo.png'
+          ],
+          en: {
+            category: 'Internship : Atelier PHUONG',
+            title: 'Internship at Atelier PHUONG: Website, Social Media & Visual Content',
+            date: 'Jul. 2024 to Sept. 2024 (3 months) | Paris',
+            tags: ['Internship : Atelier PHUONG', 'WordPress Website', 'Social Media Strategy', 'Content Creation', 'Photography & Video', 'Fine Arts'],
+            text: `**3-month internship** at **Atelier PHUONG**, a fine arts and custom framing studio in Paris. The mission focused on **deploying and managing the company's online presence**, enhancing artwork presentation, and optimizing digital visibility.
+
+Key missions and achievements:
+
+- **Website Architecture & Management (WordPress)** : Deploying, structuring, and maintaining the company's official website using **WordPress**. Streamlining user journeys, catalog navigation, and search engine optimization (**SEO**) to engage art collectors and enthusiasts.
+
+- **Social Media Strategy & Community Growth** : Planning and executing editorial calendars, curating aesthetic feeds, and growing the brand's online community through targeted engagement.
+
+- **Artwork Photography & Creative Direction** : Directing in-studio photo shoots of fine art pieces, framing crafts, and artistic textures. Meticulous attention to lighting, composition, and color calibration to capture the authenticity of each creation.
+
+- **Video Editing & Social Content Production** : Producing and editing dynamic short-form videos and behind-the-scenes reels highlighting traditional artisanal techniques and attracting qualified organic reach.`
+          },
+          fr: {
+            category: 'Stage : Atelier PHUONG',
+            title: 'Stage chez Atelier PHUONG : Site Web, Réseaux Sociaux & Contenus Visuels',
+            date: 'Juil. 2024 à Sept. 2024 (3 mois) | Paris',
+            tags: ['Stage : Atelier PHUONG', 'Site Web WordPress', 'Gestion Réseaux Sociaux', 'Production de Contenus', 'Photographie & Vidéo', 'Arts Plastiques'],
+            text: `Stage de **3 mois** au sein de l'**Atelier PHUONG**, compagnie d'arts plastiques et d'encadrement d'art à Paris. Mission axée sur le **déploiement et la gestion de la présence en ligne**, la valorisation des œuvres et l'optimisation de la visibilité numérique.
+
+Missions et réalisations clés :
+
+- **Conception & Gestion du Site Web (WordPress)** : Déploiement, structuration des pages et mise à jour continue du site internet sur **WordPress**. Optimisation de l'ergonomie, de l'arborescence et du référencement naturel (**SEO**) pour attirer une clientèle d'amateurs d'art et de collectionneurs.
+
+- **Stratégie & Gestion des Réseaux Sociaux** : Élaboration du calendrier éditorial, animation des comptes de la compagnie et développement de la communauté en ligne pour accroître l'engagement et la visibilité de la marque.
+
+- **Création de Contenus & Photographie** : Prise de vue photographique professionnelle des créations, toiles et réalisations d'art plastique en atelier. Travail soigné sur la lumière, le cadrage et la colorimétrie pour restituer fidèlement la texture et l'émotion des œuvres.
+
+- **Montage Vidéo & Formats Courts** : Réalisation, montage et étalonnage de vidéos dynamiques (Reels, capsules en coulisses) illustrant le savoir-faire artisanal de l'atelier, générant de la visibilité et du trafic qualifié.`
           }
         },
 
@@ -1170,6 +1223,11 @@ La maîtrise de la **théorie des couleurs**, de l'harmonie des palettes et de l
         if (hOff) {
           const a = $('.badge-action', hOff); if (a) a.textContent = t.hotspotOfficienceAction;
           const b = $('.badge-text', hOff); if (b) b.textContent = t.hotspotOfficienceText;
+        }
+        const hPhuong = $('#hotspot-phuong');
+        if (hPhuong) {
+          const a = $('.badge-action', hPhuong); if (a) a.textContent = t.hotspotPhuongAction;
+          const b = $('.badge-text', hPhuong); if (b) b.textContent = t.hotspotPhuongText;
         }
 
         // Room 3
